@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@await Html.PartialAsync("~/Views/Home/_AnimatedWelcome.cshtml")
+
+<main id="main">
+    @await Html.PartialAsync("~/Views/Home/_FeaturedServices.cshtml")
+    @await Html.PartialAsync("~/Views/Home/_CallToAction.cshtml")
+    @await Html.PartialAsync("~/Views/Home/_About.cshtml")
+    @await Html.PartialAsync("~/Views/Home/_Clients.cshtml")
+    @await Html.PartialAsync("~/Views/Home/_OnFocus.cshtml")
+</main>
